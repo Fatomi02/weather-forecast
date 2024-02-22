@@ -43,7 +43,7 @@ function Body() {
                 </div>
                 <div className="w-full text-center text-4xl mt-6">
                     Cloudy
-                    <div className="flex flex-row justify-around md:justify-between mt-16 md:w-4/5 flex-wrap mx-auto">
+                    <div className="flex flex-row justify-center gap-2 md:justify-between mt-16 md:w-4/5 flex-wrap mx-auto">
                         {dayList}
                     </div>
                 </div>
@@ -66,7 +66,7 @@ function Body() {
 
                 <span className="text-2xl mt-5">Hourly Forcast</span>
 
-                <div className="flex flex-row justify-between mx-3 md:mx-0 mt-5 md:ml-1 gap-2 flex-wrap">
+                <div className="flex flex-row md:justify-between justify-center md:mx-0 mt-5 md:ml-1 gap-2 flex-wrap">
                     {hourList}
                 </div>
 

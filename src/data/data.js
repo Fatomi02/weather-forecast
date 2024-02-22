@@ -1,6 +1,6 @@
 export const Datas = [
     {
-        day: "Today",
+        day: "Mon",
         degree: "20",
         weather: "Mist",
     },
